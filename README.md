@@ -235,7 +235,7 @@ Fetched swift.boringssl (4.36s)
 
 - The following benchmark was done with an internet speed of around 500 Mbps measured on https://speed.cloudflare.com
 - 3 min - Time to download grpc using swift package manager (it's cloning the whole repo)
-- 30 s - TIme to doenload grpc using swift package manager with swift package registry featyre (it's downloading the archive source for the resolved version only)
+- 30 s - Time to download grpc using swift package manager with swift package registry feature (it's downloading the archive source for the resolved version only)
 
 ## Notes
 
@@ -269,7 +269,7 @@ This way, you can resolve any package and its dependencies using the registry, i
 ### Reset config
 - You can reset your swift package-registry config by deleting the global config
 ```
-rm -rf ~/.swiftpm/configuration.reg
+rm -rf ~/.swiftpm/configuration/registries.json
 ```
 as well as your project config
 ```

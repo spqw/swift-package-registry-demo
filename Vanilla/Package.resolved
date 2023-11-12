@@ -1,0 +1,29 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift.abseil",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "0.20220623.1"
+      }
+    },
+    {
+      "identity" : "swift.boringssl",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "0.9.1"
+      }
+    },
+    {
+      "identity" : "swift.grpc",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.59.2"
+      }
+    }
+  ],
+  "version" : 2
+}
